@@ -10,8 +10,14 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    input{
+    label{
         margin: 16px 0;
+        background-color: #b2bec3;
+        padding: 8px;
+    }
+    input[type="file"]{
+        margin: 16px 0;
+        display: none;
     }
     h2{
         color:#fff;
